@@ -1,0 +1,57 @@
+body{
+    margin:0;
+    padding:0;
+}
+.header{
+    height: 100vh;
+    background-image:linear-gradient(rgba(1, 1, 1, 0.60),rgba(0, 0, 0, 0.60)) ,url("nature.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1
+{
+    color: #F0FFFF;
+    font-size: 35px;
+    letter-spacing: 1.5px;
+}
+.search-field
+{
+    height: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+}
+.file
+{
+    padding: 40px;
+}
+.keywords
+{
+    padding: 40px;
+}
+.keyword
+{
+    height: 25px;
+    width: 200px;
+}
+.search-button
+{
+    height:35px;
+    width: 100px;
+    background: #ffeb3b;
+    border: none;
+    color: #000;
+    border-radius: 25px;
+}
+.search-button:hover{
+    background: #ffc107;
+    cursor: pointer;
+}
+.form-box
+{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+}

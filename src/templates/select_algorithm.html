@@ -1,0 +1,16 @@
+{% extends 'upload_file.html'%}
+{% block algorithm %}
+  <form method="POST" action="results">
+      <p style="margin-top: 7px; margin-bottom: 10px;"> Pilih Algoritma yang akan digunakan</p>
+        <input  type="radio" name="pilihan" id="pilihan1" value="pilihan1">
+        <label  for="pilihan1"><span >KMP</span>   </label>
+        <input  type="radio" name="pilihan" id="pilihan2" value="pilihan2">
+        <label  for="pilihan2"><span >Boyer Moore</span>  </label>
+        <input  type="radio" name="pilihan" id="pilihan3" value="pilihan3">
+        <label  for="pilihan3"><span >Regex</span>  </label>
+      <input  name="keyword" placeholder="Masukan Keyword">
+      <input type="submit" value="result">
+      <!-- <input type="submit"> -->
+    </form>
+  {%block result%}{%endblock%}
+{% endblock %}
